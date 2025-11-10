@@ -1,4 +1,20 @@
-﻿public class LinkedList
+﻿
+public class Node
+{
+    public object data;
+    public Node link;
+
+    public Node()
+    {
+        data = link = null;
+    }
+    public Node(object element)
+    {
+        data = element;
+        link = null;
+    }
+}
+public class LinkedList
 {
     public bool isPrime(object A)
     {
